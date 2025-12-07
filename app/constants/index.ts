@@ -2,7 +2,7 @@
 export const projects = [
     {
         title: 'Movie Search App',
-        description: 'A React application that allows users to search for movies and view detailed information like plot, cast, and FcRatings. Integrated with the OMDB API for real-time data, featuring a clean UI with client-side pagination and a favorites watchlist persisted using localStorage.',
+        description: 'A React application that allows users to search for movies and view detailed information like plot, cast, and ratings. Integrated with the OMDB API for real-time data, featuring a clean UI with client-side pagination and a favorites watchlist persisted using localStorage.',
         image: '/images/movie-app.png',
         tags: ['React', 'Vite', 'OMBD API', 'CSS'],
         source: 'https://github.com/Teja-Janga/Movie-Search-App',
