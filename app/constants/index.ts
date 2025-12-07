@@ -1,0 +1,48 @@
+
+export const projects = [
+    {
+        title: 'Movie Search App',
+        description: 'A React application that allows users to search for movies and view detailed information like plot, cast, and FcRatings. Integrated with the OMDB API for real-time data, featuring a clean UI with client-side pagination and a favorites watchlist persisted using localStorage.',
+        image: '/images/movie-app.png',
+        tags: ['React', 'Vite', 'OMBD API', 'CSS'],
+        source: 'https://github.com/Teja-Janga/Movie-Search-App',
+        visit: 'https://teja-janga.github.io/Movie-Search-App/',
+        id: 0,
+    },
+    {
+        title: 'GetGadjet',
+        description: 'A modern e-commerce platform for tech gadjets. Features a responsive product catalog, shopping cart functionality, and a clean user interface designed for seamless shopping experience',
+        image: '/images/getgadjet.png',
+        tags: [ 'PHP', 'MySQL', 'Bootstrap 5', 'HTML', 'CSS', 'JavaScript' ],
+        source: 'https://github.com/Teja-Janga/GetGadjet',
+        visit: 'https://getgadjets.free.nf/',
+        id: 1,
+    },
+    {
+        title: 'Weather Dashboard',
+        description: 'A simple and responsive weather app built with HTML, CSS and JavaScript. It fetches weather data from OpenWeather API',
+        image: '/images/weather-dashboard.png',
+        tags: [ 'HTML', 'CSS', 'JavaScript', 'OpenWeather API' ],
+        source: 'https://github.com/Teja-Janga/Weather-Dashboard',
+        visit: 'https://teja-janga.github.io/Weather-Dashboard/',
+        id: 2,
+    },
+    {
+        title: 'Healthy Meals & Water Tracker',
+        description: 'A dialy tracking application for meals and water intake. Users can log meals, track water cups against goals, and view progress via a 7-day statics chart. Built with mobile-first design priciples using Chart.js for dat visualization.',
+        image: '/images/mealsNwater-app.png',
+        tags: ['JavaScript', 'Chart.js', 'LocalStorage', 'CSS'],
+        source: 'https://github.com/Teja-Janga/Healthy-Meals-Water-Tracker',
+        visit: 'https://teja-janga.github.io/Healthy-Meals-Water-Tracker/',
+        id: 3,
+    },
+    {
+        title: 'Currency Converter',
+        description: 'A real-time currency conversion tool supporting 150+ currencies. Fetches live exchange from an external API and updates instantly as the user types. Features a responsive design with country flags, a swap function, and user preference storage via localStorage.',
+        image: '/images/currency-app.png',
+        tags: ['React', 'Vite', 'Exchange Rate API', 'CSS'],
+        source: 'https://github.com/Teja-Janga/Currency-Converter-App',
+        visit: 'https://teja-janga.github.io/Currency-Converter-App/',
+        id: 4,
+    },
+]
