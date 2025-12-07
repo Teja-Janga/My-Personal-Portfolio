@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎯 My Personal Portfolio
 
-## Getting Started
+## 📁 Live Demo
 
-First, run the development server:
+🔗 [View Live Portfolio](https://my-personal-portfolio-9hbbzacm7-teja-jangas-projects.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## Overview
+
+A professional, modern portfolio website built with Next.js and Tailwind CSS. This portfolio showcases my Front-End Development projects, tech stack, professional journey, and provides easy ways to get in touch. Features a responsive design with a sleek neon-inspired dark theme, smooth navigation, and an engaging user interface.
+
+## ✨ Features
+
+### 🎨 Core Features:
+- 💻 **Responsive Design** - Fully optimized for mobile, tablet, and desktop
+- 📱 **Mobile Navigation** - Smart hamburger menu for mobile devices
+- 🎯 **Project Showcase** - Display of 5 complete projects with live demos and source links
+- 🛠️ **Tech Stack Section** - Visual representation of technical skills
+- 📅 **Timeline Section** - Professional journey and education highlights
+- 📧 **Contact Information** - Direct email and phone contact options
+- ⚡ **Fast Performance** - Optimized with Next.js for quick load times
+- 🌓 **Dark Theme** - Modern neon-inspired color scheme with cyan/blue accents
+- 🎬 **Smooth Animations** - Subtle hover effects and transitions
+
+## Tech Stack
+
+- **Frontend Framework:** Next.js 14
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript / JavaScript
+- **Icons:** react-icons
+- **Deployment:** Vercel
+- **Version Control:** Git, GitHub
+- **Build Tool:** npm
+
+## Project Structure
+
+```
+My-Personal-Portfolio/
+├── app/
+│   ├── components/
+│   │   ├── Header.tsx          # Navigation & mobile menu
+│   │   ├── Hero.tsx            # Introduction section
+│   │   ├── Projects.tsx        # Projects showcase grid
+│   │   ├── Technologies.tsx    # Tech stack display
+│   │   ├── Timeline.tsx        # Education & experience
+│   │   └── Footer.tsx          # Contact & social links
+│   ├── constants/
+│   │   └── index.ts            # Projects data
+│   ├── globals.css             # Global styles
+│   ├── layout.tsx              # Root layout
+│   └── page.tsx                # Home page
+├── public/
+│   └── images/                 # Project screenshots
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📂 Projects Included
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Movie Search App** - React + Vite, OMDB API integration
+2. **GetGadjet** - PHP + MySQL e-commerce platform
+3. **Weather Dashboard** - Vanilla JavaScript weather app
+4. **Healthy Meals Tracker** - JavaScript with Chart.js visualization
+5. **Currency Converter** - React with real-time exchange rates
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features in Detail
 
-## Learn More
+### Hero Section
+- Eye-catching introduction with gradient background
+- Call-to-action "Learn More" button
+- Responsive layout that works on all devices
 
-To learn more about Next.js, take a look at the following resources:
+### Projects Showcase
+- Grid layout that adapts from 1 column (mobile) to 3 columns (desktop)
+- Project cards with image preview
+- Links to live demos and GitHub repositories
+- Technology stack tags for each project
+- Hover effects for better interactivity
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Technologies Section
+- Visual display of your tech skills
+- Organized by category (Frontend, Tools, Languages)
+- Icon-based representation for easy recognition
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Timeline Section
+- Visual representation of your professional journey
+- Education and internship milestones
+- Alternating layout for visual interest
 
-## Deploy on Vercel
+### Mobile Navigation
+- Responsive hamburger menu
+- Touch-friendly navigation links
+- Smooth animations and transitions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is deployed on **Vercel** and automatically deploys on every push to the main branch.
+
+### Deploy Your Own
+
+1. Push your code to GitHub
+2. Go to [Vercel.com](https://vercel.com)
+3. Import your GitHub repository
+4. Click "Deploy"
+5. Your portfolio will be live in minutes!
+
+## License
+
+This project is open source and available under the MIT License.
+
+## Contact
+
+🔗 GitHub: [@Teja-Janga](https://github.com/Teja-Janga)
+💼 LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/teja-janga)
+
+---
+
+**Made with ❤️ by Teja Janga**
