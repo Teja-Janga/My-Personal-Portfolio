@@ -11,7 +11,7 @@ export const projects = [
     },
     {
         title: 'GetGadjet',
-        description: 'A modern e-commerce platform for tech gadjets. Features a responsive product catalog, shopping cart functionality, and a clean user interface designed for seamless shopping experience',
+        description: 'A modern e-commerce platform for tech gadgets. Features a responsive product catalog, shopping cart functionality, and a clean user interface designed for seamless shopping experience.',
         image: '/images/getgadjet.png',
         tags: [ 'PHP', 'MySQL', 'Bootstrap 5', 'HTML', 'CSS', 'JavaScript' ],
         source: 'https://github.com/Teja-Janga/GetGadjet',
@@ -29,7 +29,7 @@ export const projects = [
     },
     {
         title: 'Healthy Meals & Water Tracker',
-        description: 'A dialy tracking application for meals and water intake. Users can log meals, track water cups against goals, and view progress via a 7-day statics chart. Built with mobile-first design priciples using Chart.js for dat visualization.',
+        description: 'A daily tracking application for meals and water intake. Users can log meals, track water cups against goals, and view progress via a 7-day statics chart. Built with mobile-first design principles using Chart.js for data visualization.',
         image: '/images/mealsNwater-app.png',
         tags: ['JavaScript', 'Chart.js', 'LocalStorage', 'CSS'],
         source: 'https://github.com/Teja-Janga/Healthy-Meals-Water-Tracker',
@@ -38,7 +38,7 @@ export const projects = [
     },
     {
         title: 'Currency Converter',
-        description: 'A real-time currency conversion tool supporting 150+ currencies. Fetches live exchange from an external API and updates instantly as the user types. Features a responsive design with country flags, a swap function, and user preference storage via localStorage.',
+        description: 'A real-time currency conversion tool supporting 150+ currencies. Fetches live exchange from Exchange Rate API and updates instantly as the user types. Features a responsive design with country flags, a swap function, and user preference storage via localStorage.',
         image: '/images/currency-app.png',
         tags: ['React', 'Vite', 'Exchange Rate API', 'CSS'],
         source: 'https://github.com/Teja-Janga/Currency-Converter-App',
