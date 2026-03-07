@@ -2,7 +2,7 @@
 
 ## 📁 Live Demo
 
-🔗 [View Live Portfolio](https://my-personal-portfolio-9hbbzacm7-teja-jangas-projects.vercel.app/)
+🔗 [View Live Portfolio](https://my-personal-portfolio-inky-two.vercel.app/)
 
 ## Overview
 
